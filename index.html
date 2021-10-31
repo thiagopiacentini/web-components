@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tooltip</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>My awesome tooltip</h1>
+
+    <p>Lorem, ipsum dolor sit amet 
+      <popup-notify tip_background="#ffcc00" tip_color="white">
+        <span slot="message">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+      </popup-notify>
+     consectetur adipisicing elit. Quae quis velit minus aspernatur hic praesentium. Quia 
+     <popup-notify tip_color="grey">
+        <span slot="message">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+    </popup-notify>
+     voluptatem magnam architecto!</p>
+  </div>
+  
+
+  <script src="tooltip.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+  font-family: 'Nunito', Arial;
+  font-size: 1.4rem;
+}
+
+.container {
+  width: 80%;
+  margin: 8rem auto;
+}
