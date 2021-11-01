@@ -1,0 +1,11 @@
+body {
+  margin: 0 80px 50px;
+  background-color: beige;
+}
+
+h3 {
+  font-size: 2rem;
+  color: purple;
+  font-weight: bold;
+  border-bottom: 2px solid purple;
+}

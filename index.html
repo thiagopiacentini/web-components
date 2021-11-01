@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Card - Web Components</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h3>User Card</h3>
+
+  <user-card
+    name="John Doe"
+    avatar="https://randomuser.me/api/portraits/men/1.jpg"
+  >
+    <div slot="email">john.doe@email.com</div>
+    <div slot="phone">11 1234-5678</div>
+  </user-card>
+  
+  <user-card
+    name="Jane Lisbon"
+    avatar="https://randomuser.me/api/portraits/women/1.jpg"
+  >
+    <div slot="email">j_lisbon@email.com</div>
+    <div slot="phone">11 5678-1234</div>
+  </user-card>
+  
+  
+  
+  <script src="user-card.js"></script>
+</body>
+</html>
